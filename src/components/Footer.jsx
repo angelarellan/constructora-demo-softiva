@@ -1,4 +1,4 @@
-import { Mail, MapPin, Phone, Sparkles } from 'lucide-react'
+import { Code2, Mail, MapPin, Phone } from 'lucide-react'
 import { NAV_LINKS, SITE } from '../data/site'
 
 function Footer() {
@@ -85,7 +85,7 @@ function Footer() {
             © {year} {SITE.name}. Todos los derechos reservados.
           </p>
           <p className="inline-flex items-center gap-1.5">
-            <Sparkles className="h-4 w-4 text-amber-400" aria-hidden="true" />
+            <Code2 className="h-4 w-4 text-amber-400" aria-hidden="true" />
             Desarrollado por{' '}
             <a
               href="https://www.softivastudio.com/"
