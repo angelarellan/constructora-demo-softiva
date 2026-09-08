@@ -1,4 +1,4 @@
-import { Mail, MapPin, Phone } from 'lucide-react'
+import { Mail, MapPin, Phone, Sparkles } from 'lucide-react'
 import { NAV_LINKS, SITE } from '../data/site'
 
 function Footer() {
@@ -80,8 +80,23 @@ function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 border-t border-white/10 pt-6 text-center text-xs text-white/50">
-          © {year} {SITE.name}. Todos los derechos reservados.
+        <div className="mt-8 flex flex-col items-center justify-between gap-4 border-t border-slate-800 pt-6 text-sm text-slate-400 md:flex-row">
+          <p>
+            © {year} {SITE.name}. Todos los derechos reservados.
+          </p>
+          <p className="inline-flex items-center gap-1.5">
+            <Sparkles className="h-4 w-4 text-amber-400" aria-hidden="true" />
+            Desarrollado por{' '}
+            <a
+              href="https://www.softivastudio.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Visitar Softiva Studio"
+              className="font-semibold text-white underline decoration-amber-500/50 underline-offset-4 transition-colors hover:text-amber-400"
+            >
+              Softiva Studio
+            </a>
+          </p>
         </div>
       </div>
     </footer>
