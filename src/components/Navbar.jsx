@@ -35,9 +35,9 @@ function Navbar() {
             className="h-14 w-auto sm:h-16"
           />
           <span className="hidden font-heading text-lg font-bold leading-tight text-navy sm:block">
-            Construcciones
+            Constructora
             <br className="leading-none" />
-            Rolón
+            Demo
           </span>
         </a>
 

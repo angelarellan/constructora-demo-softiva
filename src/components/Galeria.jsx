@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { GALLERY_IMAGES } from '../data/site'
+import { GALLERY_IMAGES, SITE } from '../data/site'
 
 function Galeria() {
   const [filter, setFilter] = useState('Todos')
@@ -17,7 +17,7 @@ function Galeria() {
         <div className="mx-auto max-w-3xl text-center">
           <p className="mb-3 text-sm font-bold uppercase tracking-widest text-gold-dark">Galería</p>
           <h2 id="galeria-heading" className="text-3xl font-bold text-navy-dark sm:text-4xl">
-            Trabajos Reales de Construcciones Rolón
+            Trabajos Reales de {SITE.name}
           </h2>
         </div>
 

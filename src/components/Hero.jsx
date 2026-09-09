@@ -13,7 +13,7 @@ function Hero() {
   return (
     <section
       id="inicio"
-      aria-label="Presentación de Construcciones Rolón"
+      aria-label="Presentación de Constructora Demo"
       className="relative flex min-h-[92vh] items-center overflow-hidden pt-20"
     >
       <video

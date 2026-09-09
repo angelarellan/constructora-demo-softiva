@@ -6,7 +6,7 @@ function WhatsAppFloating() {
       href={SITE.whatsapp.urlWithMessage}
       target="_blank"
       rel="noopener noreferrer"
-      aria-label="Chatear por WhatsApp con Construcciones Rolón (se abre en una pestaña nueva)"
+      aria-label={`Chatear por WhatsApp con ${SITE.name} (se abre en una pestaña nueva)`}
       className="group fixed bottom-5 right-5 z-50 flex h-16 w-16 items-center justify-center animate-wa-bounce"
     >
       <span
