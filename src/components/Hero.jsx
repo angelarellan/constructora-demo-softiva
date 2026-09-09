@@ -46,10 +46,7 @@ function Hero() {
 
       <div className="relative mx-auto max-w-7xl px-4 py-24 sm:px-6 lg:px-8">
         <div className="max-w-3xl">
-          <p className="mb-4 inline-block animate-fade-in-up rounded-full border border-gold/60 bg-gold/10 px-4 py-1.5 text-sm font-semibold tracking-wide text-gold-light [animation-delay:100ms]">
-            Constructora en Rosario, Santa Fe
-          </p>
-          <h1 className="animate-fade-in-up text-4xl font-extrabold leading-tight text-white [animation-delay:250ms] sm:text-5xl lg:text-6xl">
+          <h1 className="animate-fade-in-up text-4xl font-extrabold leading-tight text-white [animation-delay:100ms] sm:text-5xl lg:text-6xl">
             Transformamos tus Espacios con Excelencia
           </h1>
           <p className="mt-6 max-w-2xl animate-fade-in-up text-base leading-relaxed text-white/90 [animation-delay:400ms] sm:text-lg">
